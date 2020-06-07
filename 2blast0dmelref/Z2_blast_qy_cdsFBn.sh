@@ -1,7 +1,7 @@
 #!/bin/bash
-#$ -t 1-11
+#$ -t 1-13
 
-ls=("" a1 a2 a5 a6 a7 ab8 b1 b2 b3 b4 b6)
+ls=("" a1 a2 a3 a4 a5 a6 a7 ab8 b1 b2 b3 b4 b6)
 flder=${ls[$SGE_TASK_ID]}
 
 cd ${flder}_asRef
